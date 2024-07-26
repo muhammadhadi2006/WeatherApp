@@ -11,6 +11,7 @@
 		184AC65B2C53AF2000D70103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AC65A2C53AF2000D70103 /* ContentView.swift */; };
 		184AC65D2C53AF2200D70103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184AC65C2C53AF2200D70103 /* Assets.xcassets */; };
 		184AC6602C53AF2200D70103 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184AC65F2C53AF2200D70103 /* Preview Assets.xcassets */; };
+		ABB352A02C53B9E700891434 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3529F2C53B9E700891434 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		184AC65A2C53AF2000D70103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		184AC65C2C53AF2200D70103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184AC65F2C53AF2200D70103 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB3529F2C53B9E700891434 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				184AC6582C53AF2000D70103 /* WeatherAppApp.swift */,
 				184AC65A2C53AF2000D70103 /* ContentView.swift */,
+				ABB3529F2C53B9E700891434 /* WeatherView.swift */,
 				184AC65C2C53AF2200D70103 /* Assets.xcassets */,
 				184AC65E2C53AF2200D70103 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB352A02C53B9E700891434 /* WeatherView.swift in Sources */,
 				184AC65B2C53AF2000D70103 /* ContentView.swift in Sources */,
 				184AC6592C53AF2000D70103 /* WeatherAppApp.swift in Sources */,
 			);
