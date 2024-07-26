@@ -23,6 +23,12 @@ struct ContentView: View {
                         Text("Open Feels Like Details")
                     }
                     
+                    NavigationLink {
+                        WeatherView()
+                    } label: {
+                        Text("Open Weather Deatils")
+                    }
+                    
                 }
                 .padding()
             }
