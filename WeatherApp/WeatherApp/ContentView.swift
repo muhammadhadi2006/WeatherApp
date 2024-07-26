@@ -9,14 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView{
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, Weather App")
+        NavigationStack {
+            ScrollView{
+                VStack {
+                    Image(systemName: "globe")
+                        .imageScale(.large)
+                        .foregroundColor(.accentColor)
+                    Text("Hello, Weather App")
+                    
+                    NavigationLink {
+                        FeelsLikeView()
+                    } label: {
+                        Text("Open Feels Like Details")
+                    }
+                    
+                }
+                .padding()
             }
-            .padding()
+            .navigationTitle("Weather App")
         }
     }
 }
